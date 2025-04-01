@@ -17,56 +17,41 @@
             body {
                 background-color: #f4f4f4;
                 font-family: Arial, sans-serif;
-                text-align: left;
-                padding: 5px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center; /* Center everything */
-                height: 100vh; /* Full screen height */
-                overflow: hidden; /* Prevent scrolling */
+                text-align: left; /* Center align all text */
+                padding: 10px;
             }
         
             h1 {
-                font-size: 20px; /* Smaller for mobile */
-                text-align: center;
+                font-size: 24px; /* Adjusted for mobile */
             }
         
             h2, h3 {
-                font-size: 16px;
+                font-size: 20px;
             }
         
             p, li {
-                font-size: 12px; /* Smaller text */
-                line-height: 1.2;
+                font-size: 16px; /* Proper readable text */
+                line-height: 1.5; /* Improve spacing */
             }
         
             ul {
-                list-style: none;
+                list-style: none; /* Remove bullet points */
                 padding: 0;
             }
         
-            /* Reduce icons size */
+            /* Fix icons size */
             .fa-brands, .fa-solid {
-                font-size: 30px !important;
-            }
-        
-            /* Flexbox container to fit all content */
-            .container {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                height: 100%;
+                font-size: 40px !important;
             }
         
             /* Responsive design */
             @media (max-width: 768px) {
-                h1 { font-size: 18px; }
-                h2, h3 { font-size: 14px; }
-                p, li { font-size: 10px; }
-                .fa-brands, .fa-solid { font-size: 25px !important; }
+                h1 { font-size: 22px; }
+                h2, h3 { font-size: 18px; }
+                p, li { font-size: 14px; }
+                .fa-brands, .fa-solid { font-size: 35px !important; }
             }
         </style>
-        
         
         
         
